@@ -1,0 +1,47 @@
+live_config_reload = true
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 14.0
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+
+[font.offset]
+x = 0
+y = 1
+
+[window]
+decorations = "full"
+dynamic_padding = false
+opacity = 0.95
+
+[window.padding]
+x = 0
+y = 0
+
+[window.dimensions]
+columns = 110
+lines = 33
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.primary]
+background = "0x0A0E14"
+foreground = "0xB3B1AD"
+
+[shell]
+program = "/bin/zsh"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Control|Shift"
